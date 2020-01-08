@@ -1,9 +1,3 @@
-require 'formula'
-
-def mysql_installed?
-    `which mysql_config`.length > 0
-end
-
 class Php <Formula
   url 'http://www.php.net/get/php-5.3.3.tar.gz/from/this/mirror'
   homepage 'http://php.net/'
